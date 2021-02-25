@@ -1,0 +1,31 @@
+header {
+background-color: salmon;
+}
+h2 {
+    color: white; background-color: red; font-size: 45px;
+width: 25%;
+margin-top: 20px;
+}
+.navbar {
+    display: flex;
+    float: right;
+    list-style: none;
+    justify-content: end;
+}
+.nav-link {
+    display: flex;
+    list-style: none;
+    font-size: 125%;
+}
+body {
+    background-image: url(/css/img/sparkling-marable.jpg);
+    background-size:cover;
+    background-repeat: repeat;
+}
+
+.my-footer {
+    margin-top: 40%;
+    background: hsl(248, 53%, 58%);
+    color: #fff;
+    height: 70px;
+  }  
