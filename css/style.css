@@ -2,7 +2,7 @@ header {
 background-color: salmon;
 }
 h2 {
-    color: white; background-color: red; font-size: 45px;
+    color: white; background-color: grey; font-size: 45px;
 width: 25%;
 margin-top: 20px;
 }
@@ -23,9 +23,38 @@ body {
     background-repeat: repeat;
 }
 
+/*adjust navbar position, height, and color*/
 .my-footer {
     margin-top: 40%;
     background: hsl(248, 53%, 58%);
     color: #fff;
-    height: 70px;
+    height: 80px;
+    display: flex;
   }  
+
+  social .fab {
+    margin-right: 10px;
+    /* boxes social icons */
+    border: 2px #fff solid;
+    
+    /* height and width of circle for social icons */
+    height: 35px;
+    width: 35px;
+    /* centers social icons inside circle */
+    line-height: 32px;
+    /* centers social icons */
+    /* text-align: center; */
+    padding-right: -3px;
+  }
+
+  .fab:hover {
+    background: salmon;
+  }
+  
+  .info {
+    padding-right: 5px;
+  }
+
+  .inf {
+    
+  }
