@@ -1,0 +1,103 @@
+   <head>
+       <title>Shawn Test 3</title>
+
+       <style>
+           .wrapper{
+               display:grid;
+               grid-template-rows: 15% 80%;
+               grid-gap: 1em;
+               grid-auto-rows: minmax(100px, auto);
+           }
+
+           .nested{
+               display: grid;
+               grid-template-rows: repeat(3, 1fr);
+               grid-auto-rows: minmax(60px, auto);
+               grid-gap: 5px;
+           }
+           .wrapper > div{
+               background:rgb(138, 143, 158);
+               padding: 1em;
+           }
+
+           .wrapper > div:nth-child(odd){
+               background: skyblue;
+           }
+
+           .work > div{
+               border:pink 1px solid;
+               padding: 30px;
+ 
+           }
+           .about-me {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+
+            }
+            .work {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+           }
+       </style>
+
+   </head>
+   
+   <!-- header -->
+    <header class="container" role="banner">
+    
+        <div class="row">
+            
+            <div class="col-md-12 border-bottom border-left border-right fixed-height">
+            
+                <div class="row">
+                
+                    <div class="col-md-2 col-sm-2" id="top">
+                        <!-- logo -->
+                        <a class="logo" href="http://www.emilyridge.ie" title="Emily Ridge"><img class="img-responsive" src="http://img1.reactor.cc/pics/post/Saitama-OnePunchMan-Anime-Genos-2647967.png" alt="Emily Ridge" title="Emily Ridge" scale="0" height="70px">
+                            
+                        </a> <!-- end logo -->
+                    </div> <!-- end col-->
+
+                    <!-- navigation -->
+                    <nav class="navbar col-md-offset-4 col-md-8 col-sm-offset-1 col-sm-11 hidden-xs" id="nav" role="navigation">
+                        <ul id="bootstrap-nav" class="nav navbar-nav"><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-24"><a title="Home">Home</a></li>
+<li><a title="Portfolio">Portfolio</a></li>
+<li><a title="Services">Services</a></li>
+<li><a title="About">About</a></li>
+<li><a title="Resources">Resources</a></li>
+<li><a title="Contact">Contact</a></li>
+</ul>                        </nav>  <!-- end navbar -->
+                
+                </div>  <!-- end row -->
+                
+            </div> <!-- end col-->
+         
+        </div>  <!-- end row -->
+
+    </header> <!-- end header -->    
+    <body>
+        <div class="sidebar">
+        </div>
+        <div class="wrapper">
+            <div class="about-me">
+                <div class="column-title">
+                    About Me
+                </div>
+                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae inventore est eligendi adipisci nemo et vitae, tempore nulla tempora nobis optio rerum officia ab explicabo aliquid culpa, nihil sint eos iure distinctio beatae sunt dolorum minus voluptas? Ut architecto iste est, repudiandae esse doloribus mollitia, earum iusto placeat vel iure eum sapiente saepe quasi fuga, doloremque odit amet illum ducimus ad. Molestias minus dolore vero debitis aspernatur, temporibus ex cum quisquam ut quo asperiores deleniti qui fugit nam placeat perspiciatis?
+                </div>
+            </div>
+            <div class="work">
+                <div>
+                    Work
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil quo dignissimos quisquam iste, optio doloremque harum aperiam sit sed, suscipit velit! Ut, tempore at! Doloribus magnam impedit ipsam eum eaque modi voluptas earum sapiente dignissimos neque repellendus, repellat, obcaecati ex, itaque quisquam similique natus totam molestiae sit laboriosam aliquid voluptates? Unde vero eveniet esse odit voluptatem nostrum, quia architecto reiciendis nobis dignissimos aspernatur sed excepturi ipsam eligendi, eaque totam?
+                </div>
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil quo dignissimos quisquam iste, optio doloremque harum aperiam sit sed, suscipit velit! Ut, tempore at! Doloribus magnam impedit ipsam eum eaque modi voluptas earum sapiente dignissimos neque repellendus, repellat, obcaecati ex, itaque quisquam similique natus totam molestiae sit laboriosam aliquid voluptates? Unde vero eveniet esse odit voluptatem nostrum, quia architecto reiciendis nobis dignissimos aspernatur sed excepturi ipsam eligendi, eaque totam?
+            </div>
+            </div>
+            </div>
+
+        </div>
+    </body>
