@@ -2,7 +2,7 @@
        <title>Shawn Test 3</title>
 
        <style>
-           .content{
+           .content {
                display:grid;
                grid-template-rows: 15% 80%;
                grid-gap: 1em;
@@ -15,12 +15,12 @@
                grid-auto-rows: minmax(60px, auto);
                grid-gap: 5px;
            }
-           .content > div{
+           .content > section{
                background:rgb(138, 143, 158);
                padding: 1em;
            }
 
-           .content > div:nth-child(odd){
+           .content > section:nth-child(odd){
                background: skyblue;
            }
 
@@ -29,21 +29,21 @@
                padding: 30px;
  
            }
-           .about-me {
+           .about-me{
                 display: grid;
-                grid-template-columns: 1fr 3fr;
+                grid-template-columns: 1fr 5fr;
 
             }
-            .work {
+            .work{
                 display: grid;
-                grid-template-columns: 1fr 3fr;
+                grid-template-columns: 1fr 5fr;
            }
        </style>
 
    </head>
 
    <!-- header -->
-    <header class="container" role="banner">
+    <header class="header-container" role="banner">
     
         <div class="row">
             
@@ -56,15 +56,17 @@
                         <a class="logo" href="http://www.facebook.com" title="Shawn Williams"><img class="img-responsive" src="http://img1.reactor.cc/pics/post/Saitama-OnePunchMan-Anime-Genos-2647967.png" alt="Shawn Williams" title="Shawn Williams" scale="0" height="90px">
                             
                         </a> <!-- end logo -->
+                        <h1>WILLIAMS</h1>
                     </div> <!-- end col-->
 
                     <!-- navigation -->
                     <nav class="navbar col-md-offset-4 col-md-8 col-sm-offset-1 col-sm-11 hidden-xs" id="nav" role="navigation">
                         <ul id="bootstrap-nav" class="nav navbar-nav"><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-24"><a title="Home">Home</a></li>
-<li><a title="About Me">About Me</a></li>
-<li><a title="Work">Work</a></li>
-<li><a title="Contact Me">Contact Me</a></li>
-</ul>                        </nav>  <!-- end navbar -->
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact-me">Contact Me</a></li>
+                        </ul>               
+                    </nav>  <!-- end navbar -->
                 
                 </div>  <!-- end row -->
                 
@@ -74,47 +76,49 @@
 
     </header> <!-- end header -->    
     <body>
-        <div class="content">
-            <div class="about-me">
+        <div class="content"> <!-- content -->
+            <div id="about-me" class="about-me">
                 <div class="column-title">
                     About Me
                 </div>
                 <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae inventore est eligendi adipisci nemo et vitae, tempore nulla tempora nobis optio rerum officia ab explicabo aliquid culpa, nihil sint eos iure distinctio beatae sunt dolorum minus voluptas? Ut architecto iste est, repudiandae esse doloribus mollitia, earum iusto placeat vel iure eum sapiente saepe quasi fuga, doloremque odit amet illum ducimus ad. Molestias minus dolore vero debitis aspernatur, temporibus ex cum quisquam ut quo asperiores deleniti qui fugit nam placeat perspiciatis?
                 </div>
             </div>
-            <div class="work">
-                <div>
+            <div id="work" class="work">
+                <div> 
                     Work
                 </div>
                 <div>
                     <h2> First Project</h2>
-                         <a class href="https://shawnw794.github.io/Homework1-Code-Refactor/#online-reputation-management" title="First Project">
-                        </a> <img class="img-responsive" src="css/img/01-html-css-git-homework-demo.png" alt="First Project" title="First Project" scale="0" height="90px" /></img>
-                    
+                         <a class href="https://shawnw794.github.io/Homework1-Code-Refactor/" title="First Project">
+                         <img class="img-responsive" src="css/img/01-html-css-git-homework-demo.png" alt="First Project" title="First Project" scale="0" height="900px" /></img>
+                        </a>   
 
                 </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil quo dignissimos quisquam iste, optio doloremque harum aperiam sit sed, suscipit velit! Ut, tempore at! Doloribus magnam impedit ipsam eum eaque modi voluptas earum sapiente dignissimos neque repellendus, repellat, obcaecati ex, itaque quisquam similique natus totam molestiae sit laboriosam aliquid voluptates? Unde vero eveniet esse odit voluptatem nostrum, quia architecto reiciendis nobis dignissimos aspernatur sed excepturi ipsam eligendi, eaque totam?
-            </div>
+
             </div>
             </div>
 
-        </div>
+            </div>
+        </div> <!-- end content -->  
+
     </body>
 
-       <!-- footer -->
-   <footer class="container" role="banner">
 
-    <div class="row">
-        <div clas="contact-me">
-            <h2>Contact Me</h2>
-            <a href="#">229-376-3111</a>
-            <a href="#">shawnw794@gmail.com</a>
-            <a href="https://www.linkedin.com/in/shawn-williams-9190798a/">LinkedIn</a>
-            <a href="#">GitHub</a>
-            <a href="#">Contact</a>
+    <!-- footer -->
+    <footer class="-footer-scontainer" role="banner">
+        <div class=row>
+            <div class="col-md-12 border-bottom border-left border-right fixed-height">
+                <div class="footer">
+                    <div id= "contact-me" clas="contact-me">
+                        <h2>Contact Me</h2>
+                        <a href="tel:229-376-3111">229-376-3111</a>
+                        <a href="mailto:shawnw794@gmail.com">shawnw794@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/shawn-williams-9190798a/">LinkedIn</a>
+                        <a href="https://github.com/shawnw794">GitHub</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-
-       </div>
-   </footer> <!-- end footer -->
+    </footer> <!-- end footer -->
