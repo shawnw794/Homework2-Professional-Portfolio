@@ -7,16 +7,16 @@
 .content {
     display:grid;
     grid-template-rows: 15% 80%;
-    grid-gap: 1em;
+    grid-gap: 2em;
     grid-auto-rows: minmax(100px, auto);
     padding-bottom: 7em;
 }
-.content > section{
-    background:rgb(138, 143, 158);
-    padding: 1em;
+.content > div{
+    background-color: red;
+    padding: ;
 }
 
-.content > section:nth-child(odd){
+.content > div:nth-child(odd){
     background: skyblue;
 }
 .nested{
@@ -28,7 +28,7 @@
 
 
 .work > div{
-    border:pink 1px solid;
+    border-right:skyblue 1px solid;
     padding: 30px;
 
 }
@@ -42,6 +42,16 @@
      grid-template-columns: 1fr 5fr;
 
  }
+
+ .about-me > div{
+     border-right: red 2px solid;
+     padding: 30px;
+    }
+
+ .column-title {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 35;
+    }
 
 .footer-container {
     background-color: skyblue solid;
@@ -64,4 +74,18 @@
     background-image: url(/css/img/twilight.jpeg);
     background-size: 10;
     background-repeat: no-repeat
+}
+
+.projects{
+    padding: 3em;
+}
+
+.future-projects{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    padding: 10;
+
 }
