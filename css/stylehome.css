@@ -15,7 +15,9 @@
     height: 100%;
     display: table;
     float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .inner_header{
     width: 1000px;
@@ -72,9 +74,9 @@
 
 
 .work > div{
-    border-right:skyblue 2px solid;
+    border-right: skyblue 2px solid;
     padding: 30px;
-
+    margin-left: 100px;
 }
  .work{
      display: grid;
