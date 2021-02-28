@@ -27,7 +27,11 @@
 
 .navigation{
     float: right;
+    display: flex;
     height: 100%;
+    list-style: none;
+    font-size: 150%;
+
 }
 
 .navigation a{
@@ -40,6 +44,7 @@
 .navigation a li{
     display: table-cell;
     vertical-align: middle;
+
 }
 
 .content {
