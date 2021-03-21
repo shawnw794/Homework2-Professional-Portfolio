@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 5px;
+
+}
+
+.container {
+    max-width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    background-color: gold;
+    /* display:block; */
+    border-radius: 6px;
+}
+
+#portrait {
+    height: 200px;
+    scale: 0;
+    border-radius: 20px;
+    background-color: skyblue;
+}
+
+#header_left {
+    float: left;
+    max-width: 30%;
+    font-size: 14px;
+    background-color: skyblue;
+    border-radius: 6px;
+}
+
+.navigation{
+    float: right;
+    max-width: 70;
+    display: flex;
+    list-style: none;
+    /* height: 100%; */
+    /* font-size: 100%; */
+    background-color: red;
+    border-radius: 6px;
+}
+
+.content {
+    position:absolute;
+    left: 5.5%;
+    top: 43%;
+    max-width: 88%;
+    height: 155px;
+    margin: 0 auto;
+    background-color: red;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.about-me {
+    display: grid;
+    grid-template-columns: 15% 80%;
+    border-right: skyblue 2px solid;
+}
+
+.column-title1 {
+    border-right: skyblue 2px solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 15% 80%;
+    border-right: red 2px solid;
+    background-color: skyblue;
+    margin-top: 15px;
+}
+
+.column-title2 {
+    border-right: red 2px solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
