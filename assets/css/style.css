@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -126,3 +125,7 @@ header {
     padding: 5px;
     border-radius: 6px;
 } 
+
+.link {
+    margin: 0px 10px;
+}
